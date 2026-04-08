@@ -3761,6 +3761,24 @@ input[type="button"].btn-block {
     .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
       color: #fff; }
 
+/* Force navbar-toggler icon and text visible on scroll */
+.ftco_navbar.scrolled .navbar-toggler,
+.ftco_navbar.awake .navbar-toggler {
+    color: #fff !important;           /* For Menu text */
+    border-color: rgba(255,255,255,0.3) !important;
+}
+
+.ftco_navbar.scrolled .navbar-toggler .oi,
+.ftco_navbar.awake .navbar-toggler .oi {
+    color: #fff !important;           /* For the hamburger icon */
+    fill: #fff !important;
+}
+
+.ftco_navbar.scrolled .navbar-toggler span,
+.ftco_navbar.awake .navbar-toggler span {
+    color: #fff !important;           /* Ensures Menu text is visible */
+}
+
 .card {
   position: relative;
   display: -webkit-box;
